@@ -7,3 +7,5 @@ Scripts
 =======
 
 date.sh - A simple script to print out the current date and time on a log file
+
+selfcopy.sh - A script that copies itself to another script called 'backup'
