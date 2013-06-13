@@ -9,12 +9,9 @@ function isDivisbleBy {
 for number in {1..100}
 do
 	output=""
-	if isDivisbleBy $number 3; then
-		output="Fizz"
-	fi
-	if isDivisbleBy $number 5; then
-		output="${output}Buzz"
-	fi
+	isDivisbleBy $number 3 && output="Fizz"
+	isDivisbleBy $number 5 && output="${output}Buzz"
+	
 	if [ -z $output ]; then
 		echo $number
 	else
