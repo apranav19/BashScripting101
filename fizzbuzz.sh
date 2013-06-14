@@ -1,4 +1,4 @@
-!#/usr/bin/bash
+#!/bin/bash
 
 # The classic fizzbuzz problem
 
