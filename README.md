@@ -11,3 +11,5 @@ date.sh - A simple script to print out the current date and time on a log file
 selfcopy.sh - A script that copies itself to another script called 'backup'
 
 fizzbuzz.sh - A script that solves the classic FizzBuzz problem
+
+remove_pycs.sh - A script that finds all the '.pyc' files in an application and removes them
